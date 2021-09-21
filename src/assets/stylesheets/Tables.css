@@ -1,0 +1,30 @@
+.tables {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.tabs {
+    width: 100%;
+    height: 50px;
+    background: var(--orange);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tabs button {
+    color: #3498db;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.tabs button.active {
+    color: var(--orange);
+}
+
+.table-header  {
+    background: var(--gray);
+    color: #fff;
+}
