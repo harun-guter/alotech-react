@@ -1,0 +1,9 @@
+.summary-content-container table * {
+    font-size: 14px;
+    color: var(--dark);
+    white-space: nowrap;
+}
+
+.summary-content-container table th {
+    background: #ecf0f1;
+}

@@ -1,0 +1,88 @@
+.keypad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.keypad button {
+    border-radius: 0;
+}
+
+.keypad button:hover,
+.keypad button:focus {
+    opacity: .8;
+}
+
+.numbers {
+    width: 100%;
+}
+
+.number-buttons-container {
+    padding: 3px;
+}
+
+.keypad .number-buttons {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: var(--orange);
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-control {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.call-control-button {
+    aspect-ratio: 1/1;
+    padding: 3px;
+}
+
+.call-control button {
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.microphone-control {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.microphone-control-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+
+.phone-control {
+    width: 100%;
+}
+
+.phone-control-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+.phone-control-button i {
+    font-size: 10px;
+    margin-right: 15px;
+}

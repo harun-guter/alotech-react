@@ -1,0 +1,7 @@
+.info {
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+}
+

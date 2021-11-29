@@ -4,6 +4,20 @@
     --dark: #2c3e50;
 }
 
+*::-webkit-scrollbar {
+    width: 5px!important;
+    height: 5px!important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #888!important;
+    border-radius: 2.5px!important;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ddd!important;
+}
+
 body {
     background: #ecf0f1;
     font-size: 14px;

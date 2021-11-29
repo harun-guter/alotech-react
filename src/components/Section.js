@@ -1,23 +1,23 @@
 import Status from "./Status";
 import Sidebar from "./Sidebar";
+import Info from "./Info";
 import Summary from "./Summary";
-import Tables from "./Tables";
 
 function Section() {
     return (
-        <div className={"container mt-3"}>
-            <div className="row">
-                <div className="col-xl-10">
+        <section className={"container mt-2"}>
+            <div className={"row"}>
+                <div className={"col-xl-10"}>
                     <Status/>
+                    <Info/>
                     <Summary/>
-                    <Tables/>
                 </div>
-                <div className="col-xl-2 px-2">
+                <div className={"col-xl-2"}>
                     <Sidebar/>
                 </div>
             </div>
-        </div>
-    )
+        </section>
+    );
 }
 
 export default Section;
