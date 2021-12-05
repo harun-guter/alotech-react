@@ -26,7 +26,8 @@
 }
 
 .active-status {
-    border-color: #2ecc71;
+    /*border-color: #2ecc71;*/
+    border-color: var(--orange);
 }
 
 .agent-status-item:not(.active-status):hover {
