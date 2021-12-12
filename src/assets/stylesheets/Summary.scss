@@ -1,6 +1,8 @@
+@use "Variables" as vars;
+
 .summary-tab-buttons-container {
     width: 100%;
-    background: var(--orange);
+    background: vars.$orange;
     border: 1px solid #ddd;
     border-bottom: 0!important;
     padding: 5px 5px 0 5px;

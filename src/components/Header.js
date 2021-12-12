@@ -1,4 +1,4 @@
-import '../assets/stylesheets/Header.css';
+import '../assets/stylesheets/Header.scss';
 import Logo from './Logo'
 import Menu from "./Menu";
 

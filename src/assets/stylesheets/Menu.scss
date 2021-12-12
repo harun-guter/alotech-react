@@ -1,0 +1,42 @@
+@use "Variables" as vars;
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    span {
+        display: block;
+        font-size: 16px;
+        color: vars.$dark;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            width: 32px;
+            height: 32px;
+            background: #fff;
+            border: 1px solid #ddd;
+            text-align: center;
+            list-style: none;
+            float: left;
+            margin-left: 5px;
+            transition: 250ms background-color, 250ms border-color;
+
+            a {
+                display: block;
+                line-height: 32px;
+                color: vars.$orange;
+            }
+
+            &:hover {
+                border-color: #ccc;
+                background: #eee;
+                transition: 250ms background-color, 250ms border-color;
+            }
+        }
+    }
+}

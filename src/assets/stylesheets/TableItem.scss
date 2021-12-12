@@ -1,0 +1,12 @@
+.summary-content-container {
+    table {
+        * {
+            font-size: 14px;
+            color: var(--dark);
+            white-space: nowrap;
+        }
+        th {
+            background: #ecf0f1;
+        }
+    }
+}

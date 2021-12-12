@@ -1,10 +1,10 @@
-import "../assets/stylesheets/Sidebar.css";
+import "../assets/stylesheets/Sidebar.scss";
 
 import Keypad from "./Keypad";
 import Timer from "./Timer";
 import Input from "./Input";
 import Queue from "./Queue";
-import Softphone from "./Softphone";
+import SoftPhone from "./SoftPhone";
 
 function Sidebar() {
     return (
@@ -15,7 +15,7 @@ function Sidebar() {
                 <Input/>
             </div>
             <Keypad/>
-            <Softphone/>
+            <SoftPhone/>
         </aside>
     );
 }

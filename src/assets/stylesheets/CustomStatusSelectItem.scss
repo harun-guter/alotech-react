@@ -1,0 +1,13 @@
+.custom-status-select-item select {
+  outline: 0 !important;
+  border: 3px solid #ddd;
+  font-size: 14px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 0;
+
+  &:focus {
+    border-color: var(--orange);
+    box-shadow: none !important;
+  }
+}

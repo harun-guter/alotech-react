@@ -1,4 +1,4 @@
-import "../assets/stylesheets/Timer.css";
+import "../assets/stylesheets/Timer.scss";
 
 function Timer() {
     return (

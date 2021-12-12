@@ -1,4 +1,4 @@
-import "../../assets/stylesheets/TableItem.css";
+import "../../assets/stylesheets/TableItem.scss";
 import {summaries} from "../../data/summaries";
 
 function TableItem() {

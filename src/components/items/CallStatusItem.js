@@ -1,4 +1,4 @@
-import "../../assets/stylesheets/CallStatusItem.css";
+import "../../assets/stylesheets/CallStatusItem.scss";
 
 function CallStatusItem({status}) {
     return (

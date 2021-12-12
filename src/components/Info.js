@@ -1,4 +1,4 @@
-import "../assets/stylesheets/Info.css";
+import "../assets/stylesheets/Info.scss";
 import InfoItem from "./items/InfoItem";
 import {info} from "../data/info";
 

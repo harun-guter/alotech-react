@@ -1,4 +1,4 @@
-import "../assets/stylesheets/Input.css";
+import "../assets/stylesheets/Input.scss";
 
 function Input() {
     return (

@@ -1,4 +1,4 @@
-import "../../assets/stylesheets/InfoItem.css";
+import "../../assets/stylesheets/InfoItem.scss";
 
 function InfoItem({info}) {
     return (

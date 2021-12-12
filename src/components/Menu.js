@@ -1,4 +1,4 @@
-import '../assets/stylesheets/Menu.css'
+import '../assets/stylesheets/Menu.scss'
 import {menu} from "../data/menu";
 
 function Menu() {

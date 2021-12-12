@@ -1,4 +1,4 @@
-import "../assets/stylesheets/Queue.css";
+import "../assets/stylesheets/Queue.scss";
 import {queues} from "../data/queues";
 
 function Queue() {

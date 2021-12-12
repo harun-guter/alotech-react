@@ -1,5 +1,5 @@
+import "../assets/stylesheets/Summary.scss"
 import TabButtonItem from "./items/TabButtonItem";
-import "../assets/stylesheets/Summary.css"
 import {summaryTabs} from "../data/summaryTabs";
 import TableItem from "./items/TableItem";
 

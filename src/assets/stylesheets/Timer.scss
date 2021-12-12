@@ -1,7 +1,9 @@
+@use "Variables" as vars;
+
 .timer {
     display: block;
     width: 100%;
     text-align: center;
     font-size: 22px;
-    color: var(--orange);
+    color: vars.$orange;
 }

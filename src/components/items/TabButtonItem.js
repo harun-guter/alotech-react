@@ -1,5 +1,4 @@
-
-import "../../assets/stylesheets/TabButtonItem.css";
+import "../../assets/stylesheets/TabButtonItem.scss";
 
 function TabButtonItem({summaryTabs}) {
     return (

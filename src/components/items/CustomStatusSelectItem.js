@@ -1,4 +1,4 @@
-import "../../assets/stylesheets/CustomStatusSelectItem.css";
+import "../../assets/stylesheets/CustomStatusSelectItem.scss";
 import {customStatus} from "../../data/customStatus";
 
 function CustomStatusSelectItem() {

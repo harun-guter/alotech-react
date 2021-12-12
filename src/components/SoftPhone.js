@@ -1,12 +1,12 @@
-import "../assets/stylesheets/Softphone.css";
+import "../assets/stylesheets/SoftPhone.scss";
 
-function Timer() {
-    let softphone = true;
+function SoftPhone() {
+    let softPhone = true;
     return (
         <span className={"softphone mb-3"}>
             Softphone:
             {
-                softphone ?
+                softPhone ?
                     <i className={"fas fa-check"} style={{color: "#2ecc71"}}/> :
                     <i className="fas fa-times" style={{color: "#c0392b"}}/>
             }
@@ -14,4 +14,4 @@ function Timer() {
     );
 }
 
-export default Timer;
+export default SoftPhone;

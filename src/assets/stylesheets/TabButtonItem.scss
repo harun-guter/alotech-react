@@ -1,0 +1,30 @@
+@use "Variables" as vars;
+
+.summary-tab-buttons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    cursor: pointer;
+    color: #fff;
+  }
+
+}
+
+.summary-tab-buttons {
+  li.active-tab {
+    background: #fff;
+    color: vars.$dark;
+  }
+}

@@ -1,4 +1,4 @@
-import "../assets/stylesheets/Keypad.css"
+import "../assets/stylesheets/Keypad.scss"
 import {callControllers} from "../data/callControllers";
 import {phoneController} from "../data/phoneController";
 

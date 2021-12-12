@@ -1,6 +1,8 @@
+@use "Variables" as vars;
+
 .queue select {
     height: 38px;
     font-size: 14px;
-    color: var(--dark);
+    color: vars.$dark;
     border-radius: 0;
 }

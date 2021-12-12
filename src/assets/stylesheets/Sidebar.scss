@@ -1,0 +1,13 @@
+aside {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .form {
+    width: 90%;
+  }
+}
