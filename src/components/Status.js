@@ -6,14 +6,19 @@ import {callStatuses} from "../data/callStatuses";
 import {MainContext, useContext} from "../Context";
 
 function Status() {
-    const {agentStatus, setAgentStatus} = useContext(MainContext);
+
+    const {setAgentStatus} = useContext(MainContext);
+
     return (
         <>
             <div className={"row"}>
                 {statuses.map((statuses) => <AgentStatusItem
                     key={statuses.id}
                     status={statuses}
-                    onClick={() => setAgentStatus(statuses.data)}/>)}
+                    onClick={() => {
+                        setAgentStatus(statuses.data);
+                        document.getElementById("custom-status").value = 1;
+                    }}/>)}
             </div>
             <div className={"row"}>
                 {callStatuses.map((statuses) => <CallStatusItem

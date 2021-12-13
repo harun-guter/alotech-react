@@ -1,5 +1,4 @@
 import "../assets/stylesheets/Sidebar.scss";
-
 import Keypad from "./Keypad";
 import Timer from "./Timer";
 import Input from "./Input";

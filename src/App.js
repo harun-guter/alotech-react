@@ -7,11 +7,9 @@ import {useState} from "react";
 function App() {
 
     const [agentStatus, setAgentStatus] = useState(null);
-    const [time, setTime] = useState("00:00:00");
 
     const data = {
         agentStatus, setAgentStatus,
-        time, setTime,
     }
 
     return (

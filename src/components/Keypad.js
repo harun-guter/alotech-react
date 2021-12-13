@@ -1,6 +1,6 @@
 import "../assets/stylesheets/Keypad.scss"
 import {callControllers} from "../data/callControllers";
-import {phoneController} from "../data/phoneController";
+import {phoneControllers} from "../data/phoneControllers";
 
 function Keypad() {
     let microphone = true;
@@ -14,7 +14,6 @@ function Keypad() {
         } else {
             keypad.push(i)
         }
-
     }
 
     return (
@@ -31,7 +30,7 @@ function Keypad() {
                     )
                 }
             </div>
-            <div className={"row numbers my-1"}>
+            <div className={"row numbers mt-2 px-2"}>
                 {
                     keypad.map((key, i) =>
                         <div className={"col-4 number-buttons-container"} key={i}>
@@ -47,7 +46,7 @@ function Keypad() {
             </div>
             <div className={"row phone-control"}>
                 {
-                    phoneController.map((phoneController) =>
+                    phoneControllers.map((phoneController) =>
                         <button className={"btn btn-dark btn-block phone-control-button mb-2"}
                                 onClick={() => console.log()} key={phoneController.id}>
                             <i className={phoneController.icon}/>

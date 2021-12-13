@@ -1,4 +1,4 @@
-export const phoneController = [
+export const phoneControllers = [
     {
         id: 1,
         title: "Line 1",
