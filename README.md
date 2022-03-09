@@ -1,1 +1,1 @@
-![Homepage](https://raw.githubusercontent.com/harun-guter/alotech-react/master/screenshot/homepage-flat.png)
+![Homepage](https://raw.githubusercontent.com/harunguter/alotech-react/master/screenshot/homepage-flat.png)
